@@ -1,0 +1,79 @@
+body{
+    background-color: gray;
+}
+
+.page{
+    width: 70%;
+    margin:auto;
+    background-color: white;
+    padding:0px;
+    padding-top:10px;
+}
+
+.header{
+    margin-left:50px;
+    margin-right: 50px;
+    font-family: Nunito;
+}
+
+.name{
+    color: red;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.name-description{
+    color: gray;
+    font-size: 0.8em;
+}  
+
+.leftarea-title{
+    font-weight: bold;
+    font-size:1.4em;
+    border-bottom: 4px solid red;
+    position: relative; 
+    width: 115%;
+    padding-bottom: 5px;
+}
+
+.leftinfo-area{
+    border-top: 4px solid red;
+    border-right: 4px solid red;
+    padding-top: 25px;
+}
+.description{
+    font-size: 0.7em;
+}
+
+.rightinfo{
+    padding-left:30px;
+    padding-right:50px;
+}
+
+.rightarea-title{
+    color:red;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.rightarea-subtitle{
+    font-weight: bold;
+    font-size:1.2em;
+    margin-left: 5px;
+}
+
+.rightarea-subtitle-deep2{
+    font-weight: normal;
+    font-size: 1em;
+    color: red;
+    font-style: italic;
+    margin-left: 15px;
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+    border-radius:40%;
+    clip-path: polygon(0,80%,50%,25%,60%,0);
+}

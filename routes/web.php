@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\PortfolioController;
+use App\Http\Controllers\ShowCvController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('cvs',ShowCvController::class);
+Route::resource('portfolio',PortfolioController::class);
